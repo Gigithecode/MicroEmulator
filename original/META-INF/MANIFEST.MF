@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: assets/book.png
+SHA1-Digest: hDE1oz0TIyZ1vVVObtOPQjWMtso=
+
+Name: AndroidManifest.xml
+SHA1-Digest: e3VGJQNdyjrCB4d9WwxzczYuxW4=
+
+Name: assets/ErrorClaim.png
+SHA1-Digest: D3sdKT0V/SDM6rU8b/XdKUosPwc=
+
+Name: assets/kh.gif
+SHA1-Digest: XQy/S3fgAb51woKzj1OtYlF9LCY=
+
+Name: assets/books.png
+SHA1-Digest: zjqHWTaFB5P1zUqGLHW+484E1jI=
+
+Name: res/drawable/app_icon.png
+SHA1-Digest: J1VfcKGRtT6rz1N9UujOT9cnsa4=
+
+Name: assets/books1.png
+SHA1-Digest: RWjAU9C6Mui43Ec1VJafnbz3p08=
+
+Name: assets/gov.png
+SHA1-Digest: au8rL6gvcVW8fzQwyu2Ue69q4n8=
+
+Name: resources.arsc
+SHA1-Digest: S9uPQ/aXUjXuWa7oBgxSNOCexwk=
+
+Name: classes.dex
+SHA1-Digest: yL6eDT59IXZe0boXNqhCH0xDmtA=
+
+Name: assets/KhmerPDA.jad
+SHA1-Digest: SvokvPQ0UjflErgUV0LbidCFq04=
+

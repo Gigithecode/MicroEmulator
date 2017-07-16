@@ -1,0 +1,133 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:126), pid=3508, tid=5564
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (8.0_31-b13) (build )
+# Java VM: Java HotSpot(TM) Client VM (25.31-b07 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x006bc400):  JavaThread "Unknown thread" [_thread_in_vm, id=5564, stack(0x01990000,0x019e0000)]
+
+Stack: [0x01990000,0x019e0000],  sp=0x019df430,  free space=317k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x197b8b]
+V  [jvm.dll+0x1909e6]
+V  [jvm.dll+0x3b409]
+V  [jvm.dll+0x3b5be]
+V  [jvm.dll+0x49f63]
+V  [jvm.dll+0x9dd9e]
+V  [jvm.dll+0x9e062]
+V  [jvm.dll+0x145c31]
+V  [jvm.dll+0x169cb8]
+V  [jvm.dll+0xdb171]
+C  [javaw.exe+0x13e4]
+C  [javaw.exe+0x1eb7]
+C  [javaw.exe+0xaba1]
+C  [javaw.exe+0xac2b]
+C  [kernel32.dll+0x4ee1c]
+C  [ntdll.dll+0x637eb]
+C  [ntdll.dll+0x637be]
+C  0x00000000
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x006bc400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5564, stack(0x01990000,0x019e0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.182 loading class java/lang/CharSequence done
+Event: 0.182 loading class java/lang/String done
+Event: 0.182 loading class java/lang/Class
+Event: 0.182 loading class java/lang/reflect/AnnotatedElement
+Event: 0.183 loading class java/lang/reflect/AnnotatedElement done
+Event: 0.183 loading class java/lang/reflect/GenericDeclaration
+Event: 0.183 loading class java/lang/reflect/GenericDeclaration done
+Event: 0.183 loading class java/lang/reflect/Type
+Event: 0.183 loading class java/lang/reflect/Type done
+Event: 0.183 loading class java/lang/Class done
+
+
+Dynamic libraries:
+0x008a0000 - 0x008d0000 	C:\Program Files\Java\jre1.8.0_31\bin\javaw.exe
+0x77060000 - 0x7719c000 	C:\Windows\SYSTEM32\ntdll.dll
+0x76810000 - 0x768e4000 	C:\Windows\system32\kernel32.dll
+0x75110000 - 0x7515b000 	C:\Windows\system32\KERNELBASE.dll
+0x721e0000 - 0x722a6000 	C:\Program Files\Bitdefender\Bitdefender 2015\Active Virus Control\Avc3_00297_020\avcuf32.dll
+0x771f0000 - 0x77290000 	C:\Windows\system32\ADVAPI32.dll
+0x75980000 - 0x75a2c000 	C:\Windows\system32\msvcrt.dll
+0x75800000 - 0x75819000 	C:\Windows\SYSTEM32\sechost.dll
+0x768f0000 - 0x76992000 	C:\Windows\system32\RPCRT4.dll
+0x76f90000 - 0x77059000 	C:\Windows\system32\USER32.dll
+0x753c0000 - 0x7540e000 	C:\Windows\system32\GDI32.dll
+0x76770000 - 0x7677a000 	C:\Windows\system32\LPK.dll
+0x76d50000 - 0x76ded000 	C:\Windows\system32\USP10.dll
+0x00280000 - 0x0041e000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\COMCTL32.dll
+0x76cf0000 - 0x76d47000 	C:\Windows\system32\SHLWAPI.dll
+0x76680000 - 0x7669f000 	C:\Windows\system32\IMM32.DLL
+0x766a0000 - 0x7676c000 	C:\Windows\system32\MSCTF.dll
+0x541c0000 - 0x5427f000 	C:\Program Files\Java\jre1.8.0_31\bin\msvcr100.dll
+0x616c0000 - 0x61a64000 	C:\Program Files\Java\jre1.8.0_31\bin\client\jvm.dll
+0x722b0000 - 0x722b7000 	C:\Windows\system32\WSOCK32.dll
+0x75380000 - 0x753b5000 	C:\Windows\system32\WS2_32.dll
+0x771a0000 - 0x771a6000 	C:\Windows\system32\NSI.dll
+0x74420000 - 0x74452000 	C:\Windows\system32\WINMM.dll
+0x771b0000 - 0x771b5000 	C:\Windows\system32\PSAPI.DLL
+0x68b10000 - 0x68b1c000 	C:\Program Files\Java\jre1.8.0_31\bin\verify.dll
+0x62460000 - 0x62481000 	C:\Program Files\Java\jre1.8.0_31\bin\java.dll
+0x61570000 - 0x61599000 	C:\Program Files\Java\jre1.8.0_31\bin\jdwp.dll
+0x623b0000 - 0x623b7000 	C:\Program Files\Java\jre1.8.0_31\bin\npt.dll
+0x62440000 - 0x62453000 	C:\Program Files\Java\jre1.8.0_31\bin\zip.dll
+0x706b0000 - 0x7079b000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:50793 -Dfile.encoding=Cp1252 -Xbootclasspath:C:\adt-bundle-windows-x86-20140702\sdk\platforms\android-14\android.jar 
+java_command: org.microemu.app.Main khmermart
+java_class_path (initial): C:\Users\Gigi\workspace\MicroEmulator\bin\classes;C:\Users\Gigi\workspace\MicroEmulator\libs\microemulator-3.0.0-SNAPSHOT.jar;C:\Users\Gigi\workspace\MicroEmulator\libs\tools.jar;C:\adt-bundle-windows-x86-20140702\sdk\tools\support\annotations.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:/Program Files/Java/jre1.8.0_31/bin/client;C:/Program Files/Java/jre1.8.0_31/bin;C:/Program Files/Java/jre1.8.0_31/lib/i386;C:\Program Files\Graphviz2.38\bin;C:\cygwin\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Common Files\Seagate\SnapAPI\;c:\gnuarm\bin;C:\Program Files\SlikSvn\bin;C:\Users\Gigi\Downloads\apache-ant-1.9.4-bin\apache-ant-1.9.4\bin;C:\Users\Gigi\Downloads\apache-maven-2.2.1-bin\apache-maven-2.2.1\bin;C:\Program Files\Android\android-sdk\platform-tools;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\SysGCC\arm-eabi\bin;C:\eclipse;
+USERNAME=Gigi
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 13, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7601 Service Pack 1
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 15 stepping 13, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, tsc
+
+Memory: 4k page, physical 3135928k(1007788k free), swap 6270108k(3722692k free)
+
+vm_info: Java HotSpot(TM) Client VM (25.31-b07) for windows-x86 JRE (1.8.0_31-b13), built on Dec 17 2014 20:46:12 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Thu Mar 12 00:39:10 2015
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

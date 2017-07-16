@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.microemu.android.com.borland.samples.micro.mobilebookstore.bookstoreJ2MEclient.khmermart" platformBuildVersionCode="19" platformBuildVersionName="4.4.2-1456859">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
+    <application android:icon="@drawable/app_icon" android:label="@string/app_name">
+        <activity android:configChanges="keyboardHidden|orientation" android:name="org.microemu.android.MicroEmulator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
